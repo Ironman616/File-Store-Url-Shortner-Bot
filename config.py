@@ -23,15 +23,15 @@ OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "")
-DB_NAME = os.environ.get("DATABASE_NAME", "Files-Batabase")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://spyderman11220:hLJuIvmc4txZbUtn@cluster0.esc85vg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "spyderman11220")
 
 #SHORTLINK
 SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "")
 SHORTLINK_API = os.environ.get('SHORTLINK_API', "")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001622914589"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
